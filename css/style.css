@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+flex-grow: 1;
+}
+.imgCarouselProductos{
+    height: 300px;
+    object-fit: cover;
+}
+.tipoDeProductos{
+    filter: grayscale(0.5);
+}
+@media all and (min-width: 767px ) and (max-width: 991px ){
+    .imgCarouselProductos{
+        height: 400px;
+    }
+}
+@media all and (min-width: 992px ){
+    .imgCarouselProductos{
+        height: 550px;
+    }
+}
